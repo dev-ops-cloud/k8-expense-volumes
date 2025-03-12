@@ -47,7 +47,7 @@ spec:
   selector:
     matchLabels:
       app: mysql
-      dproject: expense
+      project: expense
       tier: db # has to match .spec.template.metadata.labels
   serviceName: "mysql-headless"
   replicas: 2 # by default is 1
