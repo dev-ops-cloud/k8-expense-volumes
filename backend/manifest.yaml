@@ -35,7 +35,7 @@ spec:
         image: pallavi122/backend:2.0.0
         envFrom:
         - configMapRef:
-          name: backend
+            name: backend
 ---
 kind: Service
 apiVersion: v1
