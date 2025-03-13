@@ -98,10 +98,10 @@ spec:
         ports:
         - containerPort: 8080
         volumeMounts:
-          - name: nginx-conf
-            mountPath: /etc/nginx/nginx.conf
-            subPath: nginx.conf
-            readOnly: true
+        - name: nginx-conf
+          mountPath: /etc/nginx/nginx.conf
+          subPath: nginx.conf
+          readOnly: true
 ---
 kind: Service
 apiVersion: v1
