@@ -62,7 +62,7 @@ spec:
       terminationGracePeriodSeconds: 10
       containers:
       - name: mysql
-        image: pallavi122/mysql:1.0.0
+        image: pallavi122/mysql:2.0.0
         volumeMounts:
         - name: mysql
           mountPath: /var/lib/mysql
